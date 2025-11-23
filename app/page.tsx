@@ -86,10 +86,10 @@ export default function TokenTradingTable() {
       {/* Header Section */}
       <div className="mb-8">
         <h1 className="text-4xl font-bold text-white mb-2 drop-shadow-2xl">
-          Token Discovery
+          Token Trading Table for Eterna Labs
         </h1>
         <p className="text-lg text-gray-300">
-          Real-time market data and analytics
+          Real-time data
         </p>
       </div>
 
