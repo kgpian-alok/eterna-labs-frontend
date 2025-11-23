@@ -102,7 +102,8 @@ export const TokenModal = ({
 
           <button
             type="button"
-            className="w-full py-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white font-semibold rounded-lg transition-all shadow-lg shadow-blue-500/20 flex items-center justify-center space-x-2"
+            className="w-full py-3 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 hover:cursor-pointer text-white font-semibold rounded-lg transition-all shadow-lg shadow-blue-500/20 flex items-center justify-center space-x-2"
+            onClick={()=>{alert(`View more for ${token.name} clicked`)}}
           >
             <span>View more</span>
             <LucideExternalLink className="w-4 h-4" />
