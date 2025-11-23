@@ -107,3 +107,4 @@ To verify the >90 Lighthouse score:
 ---
 
 ## 📂 Project Structure
+├── app/ │ ├── layout.tsx # Global Shell (Providers + Background) │ └── page.tsx # Main Token Table View ├── components/ │ ├── ui/ # Generic Atoms (Badges, Sparklines) │ └── token-table/ # Domain Components (Rows, Modals) ├── hooks/ │ └── useTokenQuery.ts # React Query + Socket Mock ├── lib/ │ ├── store.ts # Redux Store Configuration │ ├── features/ # Redux Slices (UI State) │ └── utils.ts # Helper functions └── types/ # TypeScript Interfaces
